@@ -1,0 +1,18 @@
+<p>&lt;!DOCTYPE html&gt;</p>
+<html>
+<head>
+  <title>My Project</title>
+</head>
+<body>
+  <div id="readme"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/markdown-it@12"></script>
+  <script>
+    const md = new markdownit();
+    const readmeDiv = document.getElementById(&#39;readme&#39;);
+    fetch(&#39;<a href="https://raw.githubusercontent.com/lzhaha520/lzhaha520.github.io/main/README.md">https://raw.githubusercontent.com/lzhaha520/lzhaha520.github.io/main/README.md</a>&#39;)
+      .then(response =&gt; response.text())
+      .then(text =&gt; readmeDiv.innerHTML = md.render(text));
+  </script>
+</body>
+</html>
