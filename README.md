@@ -1,6 +1,5 @@
 <p align="center">
-    <img width="100" height="100" src="https://www.youxiaohou.com/logo.gif" alt="网盘直链下载助手">
-  </a>
+    <img width="100" height="100" src="https://i.postimg.cc/XvswPyZP/20220611110441-f938e.jpg" alt="">20220611110441_f938e
 </p>
 
 <h1 align="center">老辙的附件表
@@ -12,7 +11,6 @@
 </div>
 <br>
 
-[中文文档](README.md) 
 
 ## 🔧 功能
 
